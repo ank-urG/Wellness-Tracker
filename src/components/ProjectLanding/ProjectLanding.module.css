@@ -1,87 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
-
-.bgContainer {    
-    width: 375px;
-    height: 1725px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+.bgContainer {
+  width: 100vw;
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    #fff6fb 0%,
+    #e7f6fc 33.33%,
+    rgba(213, 224, 255, 0) 100%
+  );
+}
+.contentConatiner{
+    width: 80%;
 }
 .aboutDiana {
-    position: absolute;
-    width: 183px;
-    height: 30px;
-    left: 96px;
-    top: 146px;
-    
-    font-family: 'Reptile', "Acme";
-    font-style: normal;
-    font-weight: 200;
-    font-size: 33px;
-    line-height: 30px;
-    
-    color: #1B1B50;
-    
+  font-family: "Reptile", "Acme";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 33px;
+  text-align: center;
+  padding-top: 120px;
+  margin: 0;
+  color: #1b1b50;
 }
 .plateformTagline {
-    position: absolute;
-width: 290px;
-height: 23px;
-left: 42px;
-top: 213px;
-
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-text-align: center;
-
-color: #1B1B50;
-
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  margin-top: 32px;
+  color: #1b1b50;
 }
-.plateformDescription{
-    position: absolute;
-width: 308px;
-height: 75px;
-left: 33px;
-top: 273px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 179%;
-color: #000000;
+.plateformDescription {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
 }
 
-.breakingLine{
-    position: absolute;
-width: 297px;
-height: 0px;
-left: 46px;
-top: 374px;
-
-border: 1px solid #000000;
+.breakingLine {
+  border: 1px solid #000000;
+  width: 80%;
+  
 }
 
-.philosophyTitle{
-    position: absolute;
-width: 177px;
-height: 33px;
-left: 99px;
-top: 406px;
+.philosophyTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  margin-top: 32px;
+  color: #1b1b50;
+}
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
-/* identical to box height */
+.philosophySlogan {
+  font-family: "Reptile";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  text-align: center;
+  margin-top: 32px;
+  color: #1b1b50;
+}
+
+.philosophySectionDescription {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 32px;
+  text-align: center;
+  color: #1b1b50;
+}
 
 
-color: #1B1B50;
+.appFeatures {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #1b1b50;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
