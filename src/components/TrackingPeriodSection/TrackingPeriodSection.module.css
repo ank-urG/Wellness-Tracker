@@ -27,6 +27,10 @@
   margin-left: 22px;
   margin-top: 26px;
 }
+.rowContainer{
+    display: flex;
+    justify-content: center;
+}
 .buttonContainer {
   display: flex;
   flex-direction: row;

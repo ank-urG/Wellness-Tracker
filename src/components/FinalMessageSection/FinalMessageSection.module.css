@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.FinalMessageContainer{
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+    padding-top: 72px;
+    padding-bottom: 60px;
+}
+.blurContainer{
+    background: linear-gradient(156.97deg, rgba(255, 10, 186, 0.52) 0%, rgba(24, 160, 251, 0.52) 86.68%);
+opacity: 0.33;
+filter: blur(93px);
+
+}
+.text{
+    margin: 0;
+    margin-left: 47px;
+    margin-right: 54px;
+    font-family: 'Reptile';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 134.8%;
+color: rgba(0, 0, 0, 0.8);
+
+}

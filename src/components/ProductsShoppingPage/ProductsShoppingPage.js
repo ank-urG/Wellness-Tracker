@@ -16,14 +16,17 @@ const ProductsShoppingPage = () => {
           and doctors to simplify your self-care and get results fast. And, we
           always list our ingredients - so what you see is what you get.
         </p>
+        </div>
         <div className={styles.ProductsShoppingPageBottomContainer}>
+        <div className={styles.rowContainer}>
         <div className={styles.buttonContainer}>
             <button className={styles.button}>Upgrade your self-care</button>
+        </div>
         </div>
         <p className={styles.ProductsShoppingPagePromise}>#NoNasties, we promise!</p>
         </div>
         
-      </div>
+      
     </div>
   );
 };

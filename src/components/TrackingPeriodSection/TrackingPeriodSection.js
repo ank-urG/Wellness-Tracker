@@ -12,8 +12,10 @@ const TrackingPeriodSection = () => {
         ovulation, and PMS predictions. The intuitive design makes tracking your
         cycle effortless and helps you stay on top of your monthly data.
       </p>
+      <div className={styles.rowContainer}>
       <div className={styles.buttonContainer}>
           <button className={styles.button}>Track your period on the app</button>
+      </div>
       </div>
       <img className={styles.image} src={menstrual_calendarImg} alt="refresh"/>
     </div>

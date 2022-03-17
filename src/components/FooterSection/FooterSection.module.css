@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.FooterSectionContainer {
+  width: 100vw;
+  margin: 0;
+  background: #050506;
+  display: flex;
+  flex-direction: column;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+.socialMediaContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: 36px;
+}
+.Icon {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.listContainer {
+  list-style: none;
+  margin: 0;
+  margin-left: 28px;
+  margin-right: 28px;
+  padding: 0;
+}
+.listItme {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.listItmeText{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 206.5%;
+/* identical to box height, or 29px */
+
+margin: 0;
+color: #FFFFFF;
+}
+.arrowIcon{
+    width: 22px;
+    margin-left: 10px;
+}
+.breakingLine{
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.labelText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 8px;
+line-height: 206.5%;
+color: #FFFFFF;
+}
+.inputBox {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 206.5%;
+/* identical to box height, or 25px */
+
+
+color: #000000;
+background: rgba(255, 255, 255, 0.62);
+border: 1px solid #E7F6FC;
+box-sizing: border-box;
+border-radius: 4px;
+width: 65%;
+margin-right: 10px;
+}
+::placeholder{
+    color: #000000;
+}
+.rowContainer{
+    display: flex;
+    margin-top: 15px;
+}
+.ActivateContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D6F4FB;
+border: 1.2782px solid #E9F4FF;
+box-sizing: border-box;
+border-radius: 17.2556px;
+width: 35%;
+}
+.ActivateText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 8.94737px;
+margin: 0;
+margin-left: 10px;
+color: #1B1B50;
+}

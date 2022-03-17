@@ -34,6 +34,10 @@
   padding-top: 26px;
   color: rgba(255, 255, 255, 0.8);
 }
+.rowContainer{
+    display: flex;
+    justify-content: center;
+}
 .createBoxContainer {
   background: #000000;
   border-radius: 27px;
@@ -41,6 +45,7 @@
   align-items: center;
   justify-content: space-around;
   margin-top: 32px;
+  width: 80%;
 }
 .createBoxContainerText {
   font-family: "Poppins";

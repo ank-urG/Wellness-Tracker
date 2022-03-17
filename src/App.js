@@ -5,6 +5,8 @@ import TrackingMoodSection from "./components/TrackingMoodSection/TrackingMoodSe
 import TrackingPeriodSection from "./components/TrackingPeriodSection/TrackingPeriodSection.js"
 import ConsultingSection from "./components/ConsultingSection/ConsultingSection.js"
 import PersonalizedPeriodKitSection from "./components/PersonalizedPeriodKitSection/PersonalizedPeriodKitSection.js"
+import FinalMessageSection from "./components/FinalMessageSection/FinalMessageSection.js"
+import FooterSection from "./components/FooterSection/FooterSection.js"
 
 import "./App.css";
 
@@ -18,6 +20,8 @@ function App() {
       <TrackingPeriodSection />
       <ConsultingSection />
       <PersonalizedPeriodKitSection />
+      <FinalMessageSection/>
+      <FooterSection/>
     </div>
   );
 }

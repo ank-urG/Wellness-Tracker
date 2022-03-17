@@ -15,8 +15,10 @@ const TrackingMoodSection = () => {
         we measure. Track your mood and vitals (including skin and hair health)
         so you can take better care of yourself every day.
       </p>
+      <div className={styles.rowContainer}>
       <div className={styles.buttonContainer}>
         <button className={styles.button}>Track your mood on the app</button>
+      </div>
       </div>
       <div className={styles.imagesContianer}>
         <div className={styles.imagesRowContainer}>
