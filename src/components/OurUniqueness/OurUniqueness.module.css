@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.uniquenessContainer {
+  background: linear-gradient(
+    165.41deg,
+    #d99ec9 0%,
+    rgba(246, 240, 196, 0) 100%
+  );
+  width: 100vw;
+  margin: 0;
+}
+.topMargin{
+  margin-top: 32px;
+}
+.uniquenessContainerHeading{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+color: #1B1B50;
+margin: 0px;
+padding-top: 32px;
+margin-left: 26px;
+}
+.uniquenessContainerSlogan{
+  font-family: 'Reptile';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+margin-top: 32px;
+margin-left: 26px;
+color: #1B1B50;
+}
+.textContainer{
+  margin-left: 26px;
+  margin-right: 26px;
+}
+.uniquenessContainerDescription{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+margin-top: 32px;
+color: #1B1B50;
+}
+.listContainer{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+margin-top: 32px;
+color: #1B1B50;
+}
