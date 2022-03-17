@@ -30,7 +30,7 @@ const FooterSection = () => {
           />
         </li>
         <li className={styles.listItme}>
-          <p className={styles.listItmeText}>Vision & Misiion</p>
+          <p className={styles.listItmeText}>Vision & Mission</p>
           <img
             className={styles.arrowIcon}
             src={rightArrowIcon}

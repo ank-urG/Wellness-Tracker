@@ -12,6 +12,16 @@
   );
   padding: 0px;
 }
+@media screen and (max-width:375px){
+  .ConsultingSectionContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .ConsultingSectionContainer{
+    width: 769px;
+  }
+}
 .heading {
   font-family: "Reptile";
   font-style: normal;
@@ -66,4 +76,14 @@ width: 80%;
     width: 100vw;
     height: 250px;
     margin-top: 32px;
+}
+@media screen and (max-width:375px){
+  .image{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .image{
+    width: 769px;
+  }
 }

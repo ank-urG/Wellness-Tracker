@@ -11,6 +11,16 @@ display: flex;
 align-items: center;
 justify-content: space-between  ;
 }
+@media screen and (max-width:375px){
+    .NavbarContainer{
+      width: 375px;
+    }
+  }
+  @media screen and (min-width:769px) {
+    .NavbarContainer{
+      width: 769px;
+    }
+  }
 .Icon{
     color: #000000;
     margin: 16px;

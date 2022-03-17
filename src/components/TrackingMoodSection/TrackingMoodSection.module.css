@@ -5,6 +5,16 @@
   margin: 0;
   background: linear-gradient(180deg, #fff6fb 0%, #ffffff 100%);
 }
+@media screen and (max-width:375px){
+  .TrackingMoodSectionContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .TrackingMoodSectionContainer{
+    width: 769px;
+  }
+}
 .TrackingMoodSectionHeading {
   font-family: "Reptile";
   font-style: normal;
@@ -70,6 +80,8 @@
 }
 .image{
     margin: 10px;
+    max-width: 164px;
+    min-width: 100px;
 }
 .extraBottomMargin{
     margin-bottom: 32px;

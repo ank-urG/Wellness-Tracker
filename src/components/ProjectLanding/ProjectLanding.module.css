@@ -13,6 +13,16 @@
     rgba(213, 224, 255, 0) 100%
   );
 }
+@media screen and (max-width:375px){
+  .bgContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .bgContainer{
+    width: 769px;
+  }
+}
 .contentConatiner{
     width: 80%;
 }

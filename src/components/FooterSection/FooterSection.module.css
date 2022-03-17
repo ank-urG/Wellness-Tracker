@@ -9,6 +9,16 @@
   padding-top: 66px;
   padding-bottom: 66px;
 }
+@media screen and (max-width:375px){
+  .FooterSectionContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .FooterSectionContainer{
+    width: 769px;
+  }
+}
 .socialMediaContainer {
   display: flex;
   justify-content: flex-end;

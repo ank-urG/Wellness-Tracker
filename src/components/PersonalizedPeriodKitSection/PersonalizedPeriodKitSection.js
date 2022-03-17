@@ -7,7 +7,9 @@ const PersonalizedPeriodKitSection = () => {
   return (
     <div className={styles.PersonalizedPeriodKitSectionContainer}>
       <h1 className={styles.heading}>Get your personalized period box</h1>
+      <div className={styles.rowContainer}>
       <img className={styles.image} src={PMS_Potion} alt="refresh" />
+      </div>
       <p className={styles.text}>
         Tailor your monthly box of organic period products without the organic
         price tag (no pink taxing here). Get it delivered to your doorstep in

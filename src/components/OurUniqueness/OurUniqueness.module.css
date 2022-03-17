@@ -9,6 +9,16 @@
   width: 100vw;
   margin: 0;
 }
+@media screen and (max-width:375px){
+  .uniquenessContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .uniquenessContainer{
+    width: 769px;
+  }
+}
 .topMargin{
   margin-top: 32px;
 }

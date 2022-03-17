@@ -7,6 +7,16 @@
   padding-bottom: 32px;
 }
 
+@media screen and (max-width:375px){
+  .PersonalizedPeriodKitSectionContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .PersonalizedPeriodKitSectionContainer{
+    width: 769px;
+  }
+}
 .heading {
   font-family: "Reptile";
   font-style: normal;
@@ -24,6 +34,17 @@
   margin: 0;
   width: 100vw;
   height: 250px;
+  margin-right: 15px;
+}
+@media screen and (max-width:375px){
+  .image{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .image{
+    width: 769px;
+  }
 }
 .text {
   font-family: "Poppins";
@@ -33,6 +54,7 @@
   line-height: 206.5%;
   margin: 0px;
   margin-left: 22px;
+  margin-right: 16px;
   padding-top: 26px;
   color: rgba(255, 255, 255, 0.8);
 }

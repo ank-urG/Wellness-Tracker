@@ -7,6 +7,16 @@
     padding-top: 72px;
     padding-bottom: 60px;
 }
+@media screen and (max-width:375px){
+    .FinalMessageContainer{
+      width: 375px;
+    }
+  }
+  @media screen and (min-width:769px) {
+    .FinalMessageContainer{
+      width: 769px;
+    }
+  }
 .blurContainer{
     background: linear-gradient(156.97deg, rgba(255, 10, 186, 0.52) 0%, rgba(24, 160, 251, 0.52) 86.68%);
 opacity: 0.33;

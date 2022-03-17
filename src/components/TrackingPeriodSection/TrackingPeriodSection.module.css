@@ -5,6 +5,16 @@
   margin: 0;
   background: linear-gradient(176.88deg, #f3b8bc 2.58%, #ffdad4 93.07%);
 }
+@media screen and (max-width:375px){
+  .TrackingPeriodSectionContainer{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .TrackingPeriodSectionContainer{
+    width: 769px;
+  }
+}
 .heading {
   font-family: "Reptile";
   font-style: normal;
@@ -60,4 +70,14 @@
     width: 100vw;
     height: 375px;
     margin-top: 32px;
+}
+@media screen and (max-width:375px){
+  .image{
+    width: 375px;
+  }
+}
+@media screen and (min-width:769px) {
+  .image{
+    width: 769px;
+  }
 }
