@@ -19,7 +19,7 @@ font-weight: bold;
 font-size: 22px;
 color: #1B1B50;
 margin: 0px;
-padding-top: 32px;
+padding-top: 44px;
 margin-left: 26px;
 }
 .uniquenessContainerSlogan{
@@ -34,6 +34,7 @@ color: #1B1B50;
 .textContainer{
   margin-left: 26px;
   margin-right: 26px;
+  margin-bottom: 32px;
 }
 .uniquenessContainerDescription{
 font-family: 'Poppins';
