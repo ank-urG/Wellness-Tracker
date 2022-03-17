@@ -7,12 +7,13 @@ import ConsultingSection from "./components/ConsultingSection/ConsultingSection.
 import PersonalizedPeriodKitSection from "./components/PersonalizedPeriodKitSection/PersonalizedPeriodKitSection.js"
 import FinalMessageSection from "./components/FinalMessageSection/FinalMessageSection.js"
 import FooterSection from "./components/FooterSection/FooterSection.js"
-
+import NavbarSection from "./components/NavbarSection/NavbarSection.js"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <NavbarSection />
       <ProjectLanding />
       <OurUniqueness />
       <ProductsShoppingPage />

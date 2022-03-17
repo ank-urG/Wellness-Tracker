@@ -11,8 +11,10 @@ const ConsultingSection = () => {
         our app. Simply select a service, answer a few questions, and we’ll
         connect you to someone who is the right-fit for you.
       </p>
+      <div className={styles.rowContainer}>
       <div className={styles.buttonsContainer}>
           <button className={styles.button}>Get a consultation</button>
+      </div>
       </div>
       <img className={styles.image} src={cunsultantImg} alt="refresh"/>
     </div>
