@@ -20,12 +20,12 @@ const TrackingMoodSection = () => {
       </div>
       <div className={styles.imagesContianer}>
         <div className={styles.imagesRowContainer}>
-          <img className={styles.image} src={woman_img_1} />
-          <img className={styles.image} src={woman_img_2} />
+          <img className={styles.image} src={woman_img_1} alt="refresh" />
+          <img className={styles.image} src={woman_img_2} alt="refresh"/>
         </div>
         <div className={cx(styles.imagesRowContainer, styles.extraBottomMargin)}>
-          <img className={styles.image} src={woman_img_3} />
-          <img className={styles.image} src={woman_img_4} />
+          <img className={styles.image} src={woman_img_3} alt="refresh"/>
+          <img className={styles.image} src={woman_img_4} alt="refresh"/>
         </div>
       </div>
     </div>

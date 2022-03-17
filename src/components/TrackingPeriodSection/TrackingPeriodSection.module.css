@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.TrackingPeriodSectionContainer {
+  width: 100vw;
+  margin: 0;
+  background: linear-gradient(176.88deg, #f3b8bc 2.58%, #ffdad4 93.07%);
+}
+.heading {
+  font-family: "Reptile";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  color: #000000;
+  margin: 0px;
+  margin-left: 22px;
+  padding-top: 32px;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  margin-left: 22px;
+  margin-top: 26px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 15px;
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+  margin-top: 32px;
+}
+.button {
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+}
+.image{
+    width: 100vw;
+    height: 375px;
+    margin-top: 32px;
+}

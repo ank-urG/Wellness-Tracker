@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.ConsultingSectionContainer {
+  width: 100vw;
+  margin: 0;
+  background: linear-gradient(
+    270deg,
+    #dadae4 0.25%,
+    #eeeef0 24.33%,
+    #f8f8f8 52.08%,
+    #fefefe 100%
+  );
+}
+.heading {
+  font-family: "Reptile";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  color: #000000;
+  margin: 0px;
+  margin-left: 22px;
+  padding-top: 32px;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  margin: 0px;
+  margin-left: 22px;
+  padding-top: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.buttonsContainer{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 15px;
+    background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+border-radius: 70px;
+margin: 0;
+margin-top: 32px;
+}
+.button {
+    border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+}
+.image{
+    width: 100vw;
+    height: 250px;
+    margin-top: 32px;
+}
