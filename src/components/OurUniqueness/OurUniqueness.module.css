@@ -32,16 +32,17 @@ margin-left: 26px;
 color: #1B1B50;
 }
 .textContainer{
-  margin-left: 26px;
+  margin-left: 20px;
   margin-right: 26px;
-  margin-bottom: 32px;
 }
 .uniquenessContainerDescription{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
+margin: 0;
 margin-top: 32px;
+padding-bottom: 32px;
 color: #1B1B50;
 }
 .listContainer{

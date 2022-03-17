@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+
+.TrackingMoodSectionContainer {
+  width: 100vw;
+  margin: 0;
+  background: linear-gradient(180deg, #fff6fb 0%, #ffffff 100%);
+}
+.TrackingMoodSectionHeading {
+  font-family: "Reptile";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  margin: 0px;
+  margin-left: 22px;
+  padding-top: 32px;
+}
+.TrackingMoodSectionText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  margin-left: 22px;
+  margin-top: 32px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 15px;
+  background: linear-gradient(
+    288.62deg,
+    #6e8cf6 42.36%,
+    rgba(110, 213, 246, 0.93) 115.74%
+  );
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  margin-top: 32px;
+}
+.button {
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+}
+.imagesContianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    
+}
+.imagesRowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin: 10px;
+}
+.extraBottomMargin{
+    margin-bottom: 32px;
+}
