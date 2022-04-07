@@ -1,93 +1,88 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
-
-.ProductsShoppingPageContainer{
-    width: 100vw;
-    margin: 0;
-    background: #DCE9E9;
-    background-size: cover;
-}
-@media screen and (max-width:375px){
-    .ProductsShoppingPageContainer{
-      width: 375px;
-    }
-  }
-@media screen and (min-width:769px) {
-    .ProductsShoppingPageContainer{
-      width: 769px;
-    }
-  }
-.contentsContainer{
-    margin: 0;
-    margin-left: 26px;
-    margin-right: 18px;
-    padding-top: 32px;
+.ProductsShoppingPageContainer {
+  width: 100vw;
+  margin: 0;
+  background: #dce9e9;
+  background-size: cover;
 }
 
-.ProductsShoppingPageHeading{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
-color: #1B1B50;
-margin: 0;
+.contentsContainer {
+  margin: 0;
+  margin-left: 26px;
+  margin-right: 18px;
+  padding-top: 32px;
+}
 
+.ProductsShoppingPageHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #1b1b50;
+  margin: 0;
 }
-.ProductsShoppingPageSubHeading{
-font-family: 'Reptile';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-color: #000000;
+.ProductsShoppingPageSubHeading {
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
 }
-.ProductsShoppingPageText{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    
-    color: rgba(0, 0, 0, 0.8);
-}
-.rowContainer{
-    display: flex;
-    justify-content: center;
-}
-.buttonContainer{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 18px 15px;
-background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
-filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
-border-radius: 70px;
-margin-top: 32px;
-width: 80%;
-}
-.ProductsShoppingPageBottomContainer{
-    background-image: url("F:\MyProjects\wellness_tracker\src\resources\pexels_karolina_grabowska.png");
-    width: 100%;
-    height: 575px;
-}
-.button{
-    border: none;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 19px;
-background-color: transparent;
-text-align: center;
-color: #FFFFFF;
-}
-.ProductsShoppingPagePromise{
-    
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 33px;
-text-align: center;
+.ProductsShoppingPageText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
 
-color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+.rowContainer {
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 15px;
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+  margin-top: 32px;
+  width: 80%;
+  max-width: 300px;
+}
+.ProductsShoppingPageBottomContainer {
+  background-image: url('F:\MyProjects\wellness_tracker\src\resources\pexels_karolina_grabowska.png');
+  width: 100vw;
+  height: 575px;
+  
+}
+.button {
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.ProductsShoppingPagePromise {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
 }

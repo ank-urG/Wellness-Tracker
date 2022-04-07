@@ -1,22 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
 .TrackingMoodSectionContainer {
   width: 100vw;
   margin: 0;
   background: linear-gradient(180deg, #fff6fb 0%, #ffffff 100%);
 }
-@media screen and (max-width:375px){
-  .TrackingMoodSectionContainer{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .TrackingMoodSectionContainer{
-    width: 769px;
-  }
-}
 .TrackingMoodSectionHeading {
-  font-family: "Reptile";
+  font-family: 'Reptile';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -26,7 +16,7 @@
   padding-top: 32px;
 }
 .TrackingMoodSectionText {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -36,9 +26,9 @@
   margin-left: 22px;
   margin-top: 32px;
 }
-.rowContainer{
-    display: flex;
-    justify-content: center;
+.rowContainer {
+  display: flex;
+  justify-content: center;
 }
 .buttonContainer {
   display: flex;
@@ -54,11 +44,10 @@
   box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
   border-radius: 70px;
   margin-top: 32px;
-  width: 80%;
 }
 .button {
   border: none;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
@@ -66,23 +55,22 @@
   text-align: center;
   color: #ffffff;
 }
-.imagesContianer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 32px;
-    
+.imagesContianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
 }
-.imagesRowContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imagesRowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.image{
-    margin: 10px;
-    max-width: 164px;
-    min-width: 100px;
+.image {
+  margin: 10px;
+  max-width: 164px;
+  min-width: 100px;
 }
-.extraBottomMargin{
-    margin-bottom: 32px;
+.extraBottomMargin {
+  margin-bottom: 32px;
 }

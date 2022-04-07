@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
 .bgContainer {
   display: flex;
@@ -13,21 +13,12 @@
     rgba(213, 224, 255, 0) 100%
   );
 }
-@media screen and (max-width:375px){
-  .bgContainer{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .bgContainer{
-    width: 769px;
-  }
-}
-.contentConatiner{
-    width: 80%;
+
+.contentConatiner {
+  width: 80%;
 }
 .aboutDiana {
-  font-family: "Reptile", "Acme";
+  font-family: 'Reptile', 'Acme';
   font-style: normal;
   font-weight: 200;
   font-size: 33px;
@@ -37,7 +28,7 @@
   color: #1b1b50;
 }
 .plateformTagline {
-  font-family: "Quicksand";
+  font-family: 'Quicksand';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -47,23 +38,22 @@
   color: #1b1b50;
 }
 .plateformDescription {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 300;
-    margin-top: 32px;
-    font-size: 14px;
-    text-align: center;
-    color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 32px;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
 }
 
 .breakingLine {
   border: 1px solid #000000;
   width: 80%;
-  
 }
 
 .philosophyTitle {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -74,7 +64,7 @@
 }
 
 .philosophySlogan {
-  font-family: "Reptile";
+  font-family: 'Reptile';
   font-style: normal;
   font-weight: 500;
   font-size: 33px;
@@ -84,7 +74,7 @@
 }
 
 .philosophySectionDescription {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -93,9 +83,8 @@
   color: #1b1b50;
 }
 
-
 .appFeatures {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -104,8 +93,8 @@
   text-align: center;
   color: #1b1b50;
 }
-.imgContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

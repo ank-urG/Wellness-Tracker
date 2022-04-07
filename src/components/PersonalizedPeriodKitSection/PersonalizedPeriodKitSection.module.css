@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
 .PersonalizedPeriodKitSectionContainer {
   width: 100vw;
@@ -7,47 +7,29 @@
   padding-bottom: 32px;
 }
 
-@media screen and (max-width:375px){
-  .PersonalizedPeriodKitSectionContainer{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .PersonalizedPeriodKitSectionContainer{
-    width: 769px;
-  }
-}
 .heading {
-  font-family: "Reptile";
+  font-family: 'Reptile';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 134.8%;
   margin: 0px;
   margin-left: 22px;
-  margin-top: -4px;
+  
 
   padding-top: 26px;
   color: rgba(255, 255, 255, 0.8);
 }
 .image {
   margin: 0;
-  width: 100vw;
-  height: 250px;
+  width: 100%;
   margin-right: 15px;
+  max-width: 370px;
+  z-index: 1;
 }
-@media screen and (max-width:375px){
-  .image{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .image{
-    width: 769px;
-  }
-}
+
 .text {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -58,9 +40,23 @@
   padding-top: 26px;
   color: rgba(255, 255, 255, 0.8);
 }
-.rowContainer{
-    display: flex;
-    justify-content: center;
+.rowContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.imageOverlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 100%;
+  max-width: 370px;
+  height: 100%;
+  max-height: 150px;
+  background: rgba(246, 240, 196, 0.25);
+  filter: blur(46px);
+  transform: translate(-50%, -20%);
 }
 .createBoxContainer {
   background: #000000;
@@ -70,13 +66,15 @@
   justify-content: space-around;
   margin-top: 32px;
   width: 80%;
+  max-width: 300px;
 }
 .createBoxContainerText {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 206.5%;
   color: #ffffff;
   padding-left: 26px;
+  cursor: pointer;
 }

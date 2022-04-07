@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
 .ConsultingSectionContainer {
   width: 100vw;
@@ -12,18 +12,9 @@
   );
   padding: 0px;
 }
-@media screen and (max-width:375px){
-  .ConsultingSectionContainer{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .ConsultingSectionContainer{
-    width: 769px;
-  }
-}
+
 .heading {
-  font-family: "Reptile";
+  font-family: 'Reptile';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -34,7 +25,7 @@
   padding-top: 32px;
 }
 .text {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -45,45 +36,46 @@
   padding-top: 26px;
   color: rgba(0, 0, 0, 0.8);
 }
-.rowContainer{
+.rowContainer {
+  position: relative;
   display: flex;
   justify-content: center;
+  
 }
-.buttonsContainer{
-    display: flex;
+.buttonsContainer {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 18px 15px;
-    background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
-box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
-border-radius: 70px;
-margin: 0;
-margin-top: 32px;
-width: 80%;
+  background: linear-gradient(
+    288.62deg,
+    #6e8cf6 42.36%,
+    rgba(110, 213, 246, 0.93) 115.74%
+  );
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  margin: 0;
+  margin-top: 32px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 24px;
 }
 .button {
-    border: none;
-  font-family: "Poppins";
+  border: none;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
   background-color: transparent;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
 }
-.image{
-    width: 100vw;
-    height: 250px;
-    margin-top: 32px;
+.image {
+  margin: 0;
+  width: 100%;
+  margin-right: 15px;
+  max-width: 370px;
 }
-@media screen and (max-width:375px){
-  .image{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .image{
-    width: 769px;
-  }
-}
+

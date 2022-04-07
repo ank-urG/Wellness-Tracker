@@ -1,22 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans&family=Poppins&family=Quicksand&family=Roboto:wght@100;400&display=swap');
 
 .TrackingPeriodSectionContainer {
   width: 100vw;
   margin: 0;
   background: linear-gradient(176.88deg, #f3b8bc 2.58%, #ffdad4 93.07%);
 }
-@media screen and (max-width:375px){
-  .TrackingPeriodSectionContainer{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .TrackingPeriodSectionContainer{
-    width: 769px;
-  }
-}
+
 .heading {
-  font-family: "Reptile";
+  font-family: 'Reptile';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -27,7 +18,7 @@
   padding-top: 32px;
 }
 .text {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -37,9 +28,11 @@
   margin-left: 22px;
   margin-top: 26px;
 }
-.rowContainer{
-    display: flex;
-    justify-content: center;
+.rowContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
 }
 .buttonContainer {
   display: flex;
@@ -58,7 +51,7 @@
 }
 .button {
   border: none;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
@@ -66,18 +59,9 @@
   text-align: center;
   color: #ffffff;
 }
-.image{
-    width: 100vw;
-    height: 375px;
-    margin-top: 32px;
-}
-@media screen and (max-width:375px){
-  .image{
-    width: 375px;
-  }
-}
-@media screen and (min-width:769px) {
-  .image{
-    width: 769px;
-  }
+.image {
+  margin: 0;
+  width: 100%;
+  margin-top: 32px;
+  max-width: 370px;
 }

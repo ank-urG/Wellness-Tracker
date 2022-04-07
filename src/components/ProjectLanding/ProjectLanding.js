@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./ProjectLanding.module.css";
-import testTubeImg from "../../resources/testTube.svg";
-import starsImg from "../../resources/stars.svg";
-import phoneCallImg from "../../resources/phoneCall.svg";
+import React from 'react'
+import styles from './ProjectLanding.module.css'
+import testTubeImg from '../../resources/testTube.svg'
+import starsImg from '../../resources/stars.svg'
+import phoneCallImg from '../../resources/phoneCall.svg'
 
 const ProjectLanding = () => {
   return (
@@ -30,28 +30,28 @@ const ProjectLanding = () => {
           That’s why we’ve created an integrated ecosystem of:
         </p>
         <div className={styles.imgContainer}>
-          <img className={styles.testTubeImg} src={testTubeImg} alt="refresh" />
+          <img className={styles.testTubeImg} src={testTubeImg} alt='refresh' />
         </div>
         <div>
           <p className={styles.appFeatures}>
             Consciously formulated products that deliver feel-good results fast
           </p>
           <div className={styles.imgContainer}>
-          <img className={styles.starsImg} src={starsImg} alt="refresh" />
-        </div>
-          
+            <img className={styles.starsImg} src={starsImg} alt='refresh' />
+          </div>
+
           <p className={styles.appFeatures}>
             In-app mood and period tracking options that help you cultivate a
             deeper connection with your mind and body
           </p>
           <div className={styles.imgContainer}>
-          <img
-            className={styles.phoneCallImg}
-            src={phoneCallImg}
-            alt="refresh"
-          />
-        </div>
-          
+            <img
+              className={styles.phoneCallImg}
+              src={phoneCallImg}
+              alt='refresh'
+            />
+          </div>
+
           <p className={styles.appFeatures}>
             In-app consultation portals that connect you with compassionate
             wellness experts
@@ -63,7 +63,7 @@ const ProjectLanding = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectLanding;
+export default ProjectLanding

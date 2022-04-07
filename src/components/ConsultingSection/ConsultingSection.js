@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./ConsultingSection.module.css";
-import cunsultantImg from "../../resources/cunsultantImg.png"
+import React from 'react'
+import styles from './ConsultingSection.module.css'
+import cunsultantImg from '../../resources/cunsultantImg.png'
 
 const ConsultingSection = () => {
   return (
@@ -12,14 +12,15 @@ const ConsultingSection = () => {
         connect you to someone who is the right-fit for you.
       </p>
       <div className={styles.rowContainer}>
-      <div className={styles.buttonsContainer}>
+        <div className={styles.buttonsContainer}>
           <button className={styles.button}>Get a consultation</button>
+        </div>
       </div>
+      <div className={styles.rowContainer}>
+        <img className={styles.image} src={cunsultantImg} alt='refresh' />
       </div>
-      <img className={styles.image} src={cunsultantImg} alt="refresh"/>
     </div>
+  )
+}
 
-  );
-};
-
-export default ConsultingSection;
+export default ConsultingSection
