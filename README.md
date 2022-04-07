@@ -1,3 +1,5 @@
+This web-app is mainly designed for mobile view and here is the project link: https://nifty-engelbart-96a99e.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
